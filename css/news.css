@@ -199,6 +199,7 @@ a{
     box-sizing: content-box;
     background-color: white;
     width: 86%;
+    height: auto;
     margin-left: 7%;
     margin-top: 2%;
     font-size: 18px;
