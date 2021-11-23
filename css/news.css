@@ -152,7 +152,7 @@
 }
 
 .top-mv-title{ 
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     align-items: center;
@@ -269,64 +269,65 @@ a{
     color: white;
 }
 
-.footer {
+.footer{
     padding: 20px 0;
     color: #fff;
     background-color: #222;
-}
-
-.footer-inner {
+ }
+ 
+ .footer-inner{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     font-size: 12px;
-}
-
-@media screen and (min-width:768px) {
-  .footer-list {
-     display: flex;
-     white-space: nowrap;
-     color: white;
-   }
-}
-
-@media screen and (max-width:768px) {
-   .footer-list{
-      color: white;
+ }
+ 
+ @media screen and (min-width:768px){
+    .footer-list {
+       display: flex;
+       white-space: nowrap;
+       color: white;
     }
-}
-
-.footer-list_item{
+ }
+ 
+ @media screen and (max-width:768px){
+    .footer-list{
+       color: white;
+    }
+ }
+ 
+ .footer-list_item{
     list-style: none;
     text-align: center;
     margin-right: 30px;
-}
-
-@media screen and (max-width:768px) {
+ }
+ 
+ @media screen and (max-width:768px){
     .footer-list_item {
-        margin-bottom: 10px;
+       margin-bottom: 10px;
     }
-}
-
-.footer-list_item a {
+ }
+ 
+ .footer-list_item a{
     text-decoration: none;
     color: inherit;
     transition: 0.3s;
     color:white;
-}
-
-@media screen and (min-width:768px) {
+ }
+ 
+ @media screen and (min-width:768px){
     .footer-nav .footer-list .footer-list_item:not(:last-child)::after{
-      content: "|";
-      width: 1px;
-      height: 12px;
-      color: white;
-      padding-left: 7px;
+       content: "|";
+       width: 1px;
+       height: 12px;
+       color: white;
+       padding-left: 7px;
     }
-}
-
-a:hover {
+ }
+ 
+ a:hover{
     opacity: 0.7;
     transition: 0.3s;
-}
+ }
+ 
