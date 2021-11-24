@@ -122,7 +122,7 @@
     }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:769px){
     .drawer-nav{
         display: none;
     }
@@ -186,17 +186,17 @@
 .contact-form__item{
     font-size: 20%;
     font-weight: bold;
-    padding-bottom: 10%;   
+    padding-bottom: 20px;   
 }
 
 .contact-form__item p{
-    padding-bottom: 2%;
+    padding-bottom: 5px;
     font-weight: bold;
 }
 
 @media screen and (min-width:768px) {
     .contact-form__item p{
-        padding-bottom: 2%;
+        padding-bottom: 9px;
         font-weight: bold;
         font-size: 20px;
     }  
@@ -204,6 +204,7 @@
 
 .contact-form__item input{
     width: 90%;
+    font-size: 16px;
 }
 
 .contact-form__item textarea{
