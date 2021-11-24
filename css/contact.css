@@ -173,7 +173,7 @@
 }
 
 .contact-form{
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 5%;
 }
 
@@ -219,6 +219,7 @@
 .contact-btn{
     width: 100%;
     padding-bottom: 5%;
+    margin: 0 auto;
 }
 
 .contact-btn input{
